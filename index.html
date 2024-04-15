@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript calculator</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1>Simple math calculator</h1>
+
+<div>
+  <input type="text" id="txtNo1">
+
+  <select name="ddOperator" id="ddOperator">
+    <option value="add">+</option>
+    <option value="subtract">-</option>
+    <option value="multiply">*</option>
+    <option value="divide">/</option>
+  </select>
+
+  <input type="text" id="txtNo2" class="number-input">
+</div>
+
+<button onclick="calculateResult()">Calculate</button>
+
+<div id="result" class="result"></div>
+<script src="myScript.js"></script>
+</body>
+
+</html>
