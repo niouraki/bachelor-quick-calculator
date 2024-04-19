@@ -30,13 +30,13 @@ function calculateResult() {
         //         result.innerText = `${firstTextInput} + ${secondTextInput} = ${parseFloat(firstTextInput) + parseFloat(secondTextInput)}`
         //         break;
         //     case 'subtract':
-        //         result.innerText = `${firstTextInput} + ${secondTextInput} = ${parseFloat(firstTextInput) - parseFloat(secondTextInput)}`
+        //         result.innerText = `${firstTextInput} - ${secondTextInput} = ${parseFloat(firstTextInput) - parseFloat(secondTextInput)}`
         //         break;
         //     case 'multiply':
-        //         result.innerText = `${firstTextInput} + ${secondTextInput} = ${parseFloat(firstTextInput) * parseFloat(secondTextInput)}`
+        //         result.innerText = `${firstTextInput} * ${secondTextInput} = ${parseFloat(firstTextInput) * parseFloat(secondTextInput)}`
         //         break;
         //     case 'divide':
-        //         result.innerText = `${firstTextInput} + ${secondTextInput} = ${parseFloat(firstTextInput) / parseFloat(secondTextInput)}`
+        //         result.innerText = `${firstTextInput} / ${secondTextInput} = ${parseFloat(firstTextInput) / parseFloat(secondTextInput)}`
         // }
     } else {
         result.innerText = "Please fill in both of the above numbers for your calculation. Please use only numbers"
